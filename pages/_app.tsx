@@ -5,7 +5,8 @@ import { SWRConfig } from 'swr';
 
 class MyApp extends App {
   render() {
-    const { Component, pageProps } = this.props;
+    const { pageProps } = this.props;
+    const Component = this.props.Component as React.FC<any>;
 
     return (
       <SWRConfig

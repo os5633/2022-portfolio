@@ -30,18 +30,14 @@ const Page: NextPage = () => {
       <FadeInOnSlide>
         <Section>
           <Container>
-            <SubTitle>뭐든지 배울 수 있고 발전이 가능한 개발자</SubTitle>
+            <SubTitle>커뮤니케이션이 가장 중요하다고 생각하는 개발자</SubTitle>
           </Container>
 
           <Paragraph>
-            첫 프로젝트를 웹 퍼블리싱으로 시작, 그 이후 점차 프론트엔드로 영역을
-            확대하고 flutter라는 크로스 플랫폼을 사용하여 TravelPin이라는 저의
-            첫 어플을 배포했습니다. 그리고 두번째 어플인 실크는 프로토타입까지
-            완성되었습니다. 저는 무엇이든 이룰 수 있고 배울 수 있다는 자신감과
-            근성이 있습니다. 또한 토론을 즐기고 서로의 생각이 다름을 존중합니다
-            대화속에서 정답을 찾아내는 방법을 알고 있습니다. 이런 저의 장점들을
-            살리고 단점은 수용하여 게을러지지 않고 더욱더 저를 다듬어가는 비전
-            있는 개발자가 될 것입니다.
+            좋은 개발자란 어떤 개발자인지 자주 고민합니다. 스킬셋 역시
+            중요하지만 내가 과연 유저에게 무슨 가치를 전달할지 또한 그 과정을
+            함께 할 팀원들과는 어떤 자세와 마음가짐으로 커뮤니케이션을 해야할지
+            항상 고민하고 앞으로 나아가 제가 생각하는 좋은 개발자가 되겠습니다.
           </Paragraph>
 
           <Container>
@@ -49,17 +45,14 @@ const Page: NextPage = () => {
             <SkillItem>CSS</SkillItem>
             <SkillItem>JavaScript</SkillItem>
             <SkillItem>jQuery</SkillItem>
-            <SkillItem>SCSS</SkillItem>
             <SkillItem>TypeScript</SkillItem>
-            <SkillItem>PHP</SkillItem>
-            <SkillItem>MySQL</SkillItem>
-            <SkillItem>React</SkillItem>
+            <SkillItem>ReactJS</SkillItem>
             <SkillItem>NextJS</SkillItem>
             <SkillItem>Bootstrap</SkillItem>
             <SkillItem>Flutter</SkillItem>
             <SkillItem>GetX</SkillItem>
-            <SkillItem>Provider</SkillItem>
-            <SkillItem>GitHub</SkillItem>
+            <SkillItem>Bloc</SkillItem>
+            <SkillItem>Firebase</SkillItem>
           </Container>
         </Section>
       </FadeInOnSlide>
@@ -99,22 +92,13 @@ const Page: NextPage = () => {
           </Paragraph>
           <Container>
             <SkillItem>Flutter</SkillItem>
-            <SkillItem>GetX</SkillItem>
             <SkillItem>Provider</SkillItem>
             <SkillItem>Firebase</SkillItem>
-            <SkillItem>NodeJS</SkillItem>
-            <SkillItem>ExpressJS</SkillItem>
             <SkillItem>Google Place API</SkillItem>
             <SkillItem>Signin with Apple</SkillItem>
             <SkillItem>Signin with Kakao</SkillItem>
           </Container>
           <Container style={{ marginTop: 20 }}>
-            <LinkButton
-              href="https://apps.apple.com/kr/app/travelpin/id1580654359"
-              target="_blank"
-            >
-              AppStore에서 보기
-            </LinkButton>
             <LinkButton
               href="https://play.google.com/store/apps/details?id=com.travelpin.application"
               target="_blank"
@@ -192,13 +176,8 @@ const Page: NextPage = () => {
           <Container>
             <SkillItem>Flutter</SkillItem>
             <SkillItem>GetX</SkillItem>
-            <SkillItem>Provider</SkillItem>
             <SkillItem>Firebase</SkillItem>
-            <SkillItem>NodeJS</SkillItem>
-            <SkillItem>MySQL</SkillItem>
             <SkillItem>Socket.io</SkillItem>
-            <SkillItem>Signin with Apple</SkillItem>
-            <SkillItem>Signin with Kakao</SkillItem>
           </Container>
         </Section>
       </FadeInOnSlide>
@@ -227,9 +206,139 @@ const Page: NextPage = () => {
           <Container>
             <SkillItem>React</SkillItem>
             <SkillItem>NextJS</SkillItem>
-            <SkillItem>Data Preprocessing</SkillItem>
             <SkillItem>SQLite</SkillItem>
-            <SkillItem>TypeORM</SkillItem>
+          </Container>
+        </Section>
+      </FadeInOnSlide>
+
+      <FadeInOnSlide>
+        <Section>
+          <Container>
+            <SubTitle>
+              <PointText>모내기</PointText>
+              <br />
+              소비경험 공유 플랫폼
+            </SubTitle>
+          </Container>
+
+          <Container>
+            <img
+              src="/images/monegi.png"
+              style={{ maxWidth: '300px', margin: '30px auto' }}
+            />
+          </Container>
+
+          <Paragraph>
+            소비경험을 공유하는 앱 "모내기" 제작에 참여했습니다 UI&UX 개발과
+            더불어 GraphQL 및 Rest API 연동까지 프론트엔드의 전반적인 부분을
+            담당했습니다 현재는 android만 워킹하고 있습니다
+          </Paragraph>
+
+          <Container>
+            <SkillItem>Flutter</SkillItem>
+            <SkillItem>GetX</SkillItem>
+            <SkillItem>GraphQL</SkillItem>
+            <SkillItem>Firebase</SkillItem>
+          </Container>
+          <Container style={{ marginTop: 20 }}>
+            <LinkButton
+              href="https://play.google.com/store/apps/details?id=com.pgcg.monegiApp"
+              target="_blank"
+            >
+              PlayStore에서 보기
+            </LinkButton>
+          </Container>
+        </Section>
+      </FadeInOnSlide>
+      <FadeInOnSlide>
+        <Section>
+          <Container>
+            <SubTitle>
+              <PointText>헤븐리</PointText>
+              <br />
+              BL OTT 플랫폼
+            </SubTitle>
+          </Container>
+
+          <Container>
+            <img
+              src="/images/heavenly.png"
+              style={{ maxWidth: '300px', margin: '30px auto' }}
+            />
+          </Container>
+
+          <Paragraph>
+            BL플랫폼인 헤븐리 앱 프론트 개발을 총괄 담당했습니다. VOD플레이어,
+            웹툰 뷰어, 오디오 플레이어 등이 핵심 기능인 서비스이고 커뮤니티
+            기능도 추가되었습니다.
+          </Paragraph>
+
+          <Container>
+            <SkillItem>Flutter</SkillItem>
+            <SkillItem>Bloc</SkillItem>
+            <SkillItem>RESTful API</SkillItem>
+            <SkillItem>Firebase</SkillItem>
+          </Container>
+          <Container style={{ marginTop: 20 }}>
+            <LinkButton
+              href="https://apps.apple.com/app/id1575707038"
+              target="_blank"
+            >
+              AppStore에서 보기
+            </LinkButton>
+            <LinkButton
+              href="https://play.google.com/store/apps/details?id=io.amond.heavenly"
+              target="_blank"
+            >
+              PlayStore에서 보기
+            </LinkButton>
+          </Container>
+        </Section>
+      </FadeInOnSlide>
+
+      <FadeInOnSlide>
+        <Section>
+          <Container>
+            <SubTitle>
+              <PointText>헬로라이브</PointText>
+              <br />
+              스타 라이브 플랫폼
+            </SubTitle>
+          </Container>
+
+          <Container>
+            <img
+              src="/images/hellolive.png"
+              style={{ maxWidth: '300px', margin: '30px auto' }}
+            />
+          </Container>
+
+          <Paragraph>
+            스타 라이브 플랫폼 헬로라이브 개발,유지보수를 맡았습니다 Vimeo의
+            hls를 통한 라이브, 스트리밍, agora를 이용한 1:1 팬미팅 콜 등을
+            구현했으며 Flutter 2.0 이전에 개발 된 플랫폼이라 Null체크 이슈에
+            대응한 업그레이드를 진행했습니다.
+          </Paragraph>
+
+          <Container>
+            <SkillItem>Flutter</SkillItem>
+            <SkillItem>Bloc</SkillItem>
+            <SkillItem>RESTful API</SkillItem>
+            <SkillItem>Firebase</SkillItem>
+          </Container>
+          <Container style={{ marginTop: 20 }}>
+            <LinkButton
+              href="https://apps.apple.com/app/id1532848512"
+              target="_blank"
+            >
+              AppStore에서 보기
+            </LinkButton>
+            <LinkButton
+              href="https://play.google.com/store/apps/details?id=io.amond.hello"
+              target="_blank"
+            >
+              PlayStore에서 보기
+            </LinkButton>
           </Container>
         </Section>
       </FadeInOnSlide>
